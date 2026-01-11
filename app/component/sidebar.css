@@ -1,0 +1,73 @@
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid #0d6efd;
+}
+
+.profile-info p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #555;
+}
+.profile-avatar {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #6366f1;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.profile-info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Dark mode support */
+html.dark .profile-avatar {
+  background: #1e293b;
+  color: #818cf8;
+}
+
+html.dark .profile-info p {
+  color: #cbd5f5;
+}
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  background: #6366f1;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.resume-btn:hover {
+  background: #6366f1;
+}
+
+/* Dark mode */
+html.dark .resume-btn {
+  background: #818cf8;
+  color: #020617;
+}

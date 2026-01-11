@@ -1,0 +1,44 @@
+.title {
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 24px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card h3 {
+  font-size: 22px;
+}
+
+.card span {
+  color: #faf8f8;
+  font-size: 14px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #111111;
+}
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.project-tags span {
+  background: #f1f5f9;
+  color: #374151;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+/* Dark mode support */
+html.dark .project-tags span {
+  background: #1e293b;
+  color: #cbd5f5;
+}

@@ -1,0 +1,23 @@
+.title {
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 24px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.card h3 {
+  font-size: 22px;
+}
+
+.card span {
+  color: #666;
+  font-size: 14px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #111;
+}

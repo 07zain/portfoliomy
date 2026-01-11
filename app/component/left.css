@@ -1,0 +1,31 @@
+.timeline {
+  position: relative;
+  margin-top: 15px;
+}
+
+.item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  background: #adb5bd;
+  border-radius: 50%;
+}
+
+.item span {
+  font-size: 13px;
+  color: gray;
+}
+
+.item strong {
+  display: block;
+  margin-top: 4px;
+}
