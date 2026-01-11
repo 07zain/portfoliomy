@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Right */}
         <div className="footer-socials">
           <a
-            href="https://github.com/zainabashraf076"
+            href="https://github.com/07zain"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
